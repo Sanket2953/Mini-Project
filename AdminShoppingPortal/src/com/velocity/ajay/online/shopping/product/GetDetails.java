@@ -58,6 +58,7 @@ public class GetDetails {
 		GetDetails details = new GetDetails();
 		for (int i = 1; i <= number; i++) {
 			try {
+				System.out.println("Enter the " + i + " product details>>");
 				details.getProductDetails();
 			} catch (SQLException e) {
 				e.printStackTrace();
